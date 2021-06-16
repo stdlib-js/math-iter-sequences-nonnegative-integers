@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-sequences-nonnegative-integers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create an iterator which generates a nonnegative integer sequence.",
   "license": "Apache-2.0",
   "author": {
