@@ -54,6 +54,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import iterNonNegativeIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonnegative-integers@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-iter-sequences-nonnegative-integers/tags). For example,
+
+```javascript
 import iterNonNegativeIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonnegative-integers@v0.1.0-esm/index.mjs';
 ```
 
@@ -141,7 +146,7 @@ var bool = it.next().done;
 <body>
 <script type="module">
 
-import iterNonNegativeIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonnegative-integers@v0.1.0-esm/index.mjs';
+import iterNonNegativeIntegersSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-nonnegative-integers@esm/index.mjs';
 
 // Create an iterator:
 var opts = {
